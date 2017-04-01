@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:text="Wishes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wishes"
+        android:layout_weight="1"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="Birthday is the time of celebration; I hope you have a wonderful day with loads of love and surprises. May your birthday gives you the best memories till the next one, may you have success waiting ahead. "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="13dp"
+        android:id="@+id/textView2"
+        android:textColorLink="@android:color/holo_red_light"
+        android:textSize="30sp"
+        android:layout_below="@+id/wishes"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
